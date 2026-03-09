@@ -21,8 +21,11 @@ The system uses Retrieval-Augmented Generation (RAG) to retrieve relevant regula
 4. Activate it:
    - Mac/Linux: `source venv/bin/activate`
    - Windows: `venv\Scripts\activate`
-5. Install dependencies: `pip install -r requirements.txt`
-6. Run the app: `streamlit run app/streamlit_app.py`
+5. Set up environment variables:
+   - Copy the template: `cp .env.example .env`
+   - Open `.env` and fill in your local database credentials and API keys.
+6. Install dependencies: `pip install -r requirements.txt`
+7. Run the app: `streamlit run app/streamlit_app.py`
 
 ## Developer Flow
 
