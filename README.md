@@ -36,9 +36,9 @@ Use feature branches only:
 - `feature/frontend`
 - `feature/devops`
 
-1. `git checkout develop`
-2. `git pull origin develop`
+1. `git checkout main`
+2. `git pull origin main`
 3. `git checkout -b feature/<your-feature>`
 4. Work and commit changes
 5. `git push origin feature/<your-feature>`
-6. Create a Pull Request to develop.
+6. Create a Pull Request to main.
